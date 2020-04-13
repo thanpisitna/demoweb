@@ -7,10 +7,10 @@ echo "My secound page PHP script!";
 $x = 5985;
 var_dump(is_numeric($x));
 
-$x = "15985";
+$x = "985";
 var_dump(is_numeric($x));
 
-$x = "59.85" + 100;
+$x = "60.85" + 100;
 var_dump(is_numeric($x));
 
 $x = "Hello";
